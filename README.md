@@ -17,7 +17,7 @@ python3 app.py
     - 從 state0 ~ state 117
     - Input:"go to state117"
 ---
-主要分成 部份
+**主要分成4部份**
 1. **<font color="red">第一部份</font>**
     user state0 state1 
     一開始會再user狀態，使用者輸入 **hi** 之後會到state0，這時bot會回答"想不想要知道我私房的景點"，當使用者再輸入 **想** 則會到state1

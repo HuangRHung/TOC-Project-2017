@@ -21,12 +21,12 @@ python3 app.py
 1. **<font color="red">第一部份</font>**
     user state0 state1 
     一開始會再user狀態，使用者輸入 **hi** 之後會到state0，這時bot會回答"想不想要知道我私房的景點"，當使用者再輸入 **想** 則會到state1
-![show1](./img/show1.jpg)
+![show1](./pic/show1.jpg)
 
 2. **<font color="red">第二部份</font>**
     state2~state5
     接著bot會詢問使用者"要北部、中部、南部還是東部？" 使用者就可以輸入**北部**或 **中部**或**南部**或**東部**
-![show2](./img/show2.jpg)
+![show2](./pic/show2.jpg)
 
 3. **<font color="red">第三部份</font>**
     state6~state24
@@ -46,9 +46,9 @@ python3 app.py
     **3.親子共遊**
     並且3個選項都有相對的圖可以供使用者觀看，使用者只要輸入**1**、**2**、**3**就可以
     而最後bot也會列出查詢結果的名稱、地址、及網站還有推薦網址，假使使用者進到這些狀態就代表查詢動作已經結束了，所以會回到 `user`　
-![show3](./img/show3.jpg)
-![show4](./img/show4.jpg)
-![show5](./img/show5.jpg)
-![show6](./img/show6.jpg)
-![show7](./img/show7.jpg)
-![show8](./img/show8.jpg)
+![show3](./pic/show3.jpg)
+![show4](./pic/show4.jpg)
+![show5](./pic/show5.jpg)
+![show6](./pic/show6.jpg)
+![show7](./pic/show7.jpg)
+![show8](./pic/show8.jpg)
